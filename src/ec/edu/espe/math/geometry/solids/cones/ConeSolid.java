@@ -3,13 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ec.edu.espe.math.geometry;
+package ec.edu.espe.math.geometry.solids.cones;
+
+import ec.edu.espe.math.geometry.solids.Solid;
 
 /**
  *
- * @author Labs-DECC
+ * @author User
  */
-public interface Shape {
-    public abstract Float area();
-    public abstract Float perimetre(); 
+public interface ConeSolid extends Solid {
+    
 }

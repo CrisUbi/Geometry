@@ -6,13 +6,13 @@
 package ec.edu.espe.math.geometry.circumferences;
 
 import java.util.Objects;
-import ece.edu.espe.math.geometry.Shape;
+import ec.edu.espe.math.geometry.Shape;
 
 /**
  *
  * @author User
  */
-public abstract class Circumference extends Shape{
+public abstract class Circumference implements Shape{
     protected Float radio;
 
     public Circumference(Float radio) {

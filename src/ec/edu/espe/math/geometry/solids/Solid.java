@@ -3,19 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ec.edu.espe.math.geometry.quadrilaterals;
+package ec.edu.espe.math.geometry.solids;
+
 import ec.edu.espe.math.geometry.Shape;
+
 /**
  *
- * @author Labs-DECC
+ * @author User
  */
-public abstract class Quadrialaterals implements Shape
-{
-   
-       Float side;
-
-    public Quadrialaterals(Float side) {
-        this.side = side;
-    }
-    
+public  interface  Solid {
+  public abstract Float volumen();
 }

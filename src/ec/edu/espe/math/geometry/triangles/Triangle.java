@@ -6,13 +6,13 @@
 package ec.edu.espe.math.geometry.triangles;
 
 import java.util.Objects;
-import ece.edu.espe.math.geometry.Shape;
+import ec.edu.espe.math.geometry.Shape;
 
 /**
  *
  * @author User
  */
-public abstract class Triangle extends Shape{
+public abstract class Triangle implements Shape{
     protected Float sideOne;
     protected Float sideTwo;
     protected Float sideThree;
